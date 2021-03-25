@@ -8,5 +8,5 @@ module.exports = function countCats(e) {
     newArr = newArr.concat(e[i]);
 }
   newArr = newArr.filter(item => item === "^^");
- // return newArr.length
+  return newArr.length
 };
