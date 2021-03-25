@@ -7,5 +7,5 @@ module.exports = function createDreamTeam(members) {
   newArr = newArr.map(e => e.trim()).map(e => e[0]).map(e => e.toUpperCase());
   newArr = newArr.sort().join("");
 
-//return newArr;
+return newArr;
 };
